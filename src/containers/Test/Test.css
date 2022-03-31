@@ -1,0 +1,44 @@
+.Test {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: scroll;
+  width: 100%;
+  background-color: #495c70;
+  text-align: center;
+}
+.Question:nth-child(1) {
+  margin: 10px auto 20px auto;
+}
+.Question {
+  border: 3px #616f7e;
+  border-style: dashed none dashed none;
+  margin: 20px auto;
+  width: 50%;
+  color: white;
+}
+.Question * {
+  display: block;
+  margin: 3px;
+}
+
+.Question input {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #83a4c5;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  color: white;
+  text-align: center;
+}
+.Question input.fail {
+  border-color: red;
+  border-width: 3px;
+}
+
+.Question input.success {
+  border-color: green;
+  border-width: 3px;
+}

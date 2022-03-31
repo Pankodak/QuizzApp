@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main {
+  height: 95vh;
+}
+
+.BackDiv {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.BackDiv:hover {
+  cursor: pointer;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
